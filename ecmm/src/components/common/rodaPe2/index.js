@@ -139,17 +139,21 @@ export default function rodaPe() {
                             </div>
 
                             <div className="c-img">
-                            <div className="img1">
+                                <div className="img1">
                                     <img src="/assets/images/facebook.png" alt="" />
                                 </div>
 
-                                <div className="img1">
-                                    <img src="/assets/images/twitter.png" alt="" />
-                                </div>
+                                <a href="https://twitter.com/ecommodas?t=XDvELDP9lM1EXZ6N7zKuPw&s=09">
+                                    <div className="img1">
+                                        <img src="/assets/images/twitter.png" alt="" />
+                                    </div>
+                                </a>
 
-                                <div className="img1">
-                                    <img src="/assets/images/instagram.png" alt="" />
-                                </div>
+                                <a href="https://www.instagram.com/eecommodas/?utm_medium=copy_link">
+                                    <div className="img1">
+                                        <img src="/assets/images/instagram.png" alt="" />
+                                    </div>
+                                </a>
 
                                 <div className="img1">
                                     <img src="/assets/images/pinterest.png" alt="" />
