@@ -15,7 +15,7 @@ export default function login() {
 
                 <div class="area">
                     <div class="caixa">
-                        <div class="titulo">
+                        <div class="titu">
                             Cadastrar
                         </div>
 

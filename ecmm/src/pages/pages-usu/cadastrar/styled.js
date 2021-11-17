@@ -16,7 +16,7 @@ const Div = styled.div`
         padding-top: 30px;
     }
 
-    .titulo {
+    .titu {
         font-size: 37px;
         font-weight: bolder;
         color: #d9d9d9;
