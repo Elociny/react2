@@ -1,6 +1,6 @@
 import { Div } from './styled';
 
-import Input2 from '../../../components/common/input2/index';
+import Input3 from '../../../components/common/input3/index';
 
 export default function enderecos() {
     return (
@@ -11,7 +11,7 @@ export default function enderecos() {
                 </div>
 
                 <div className="seila">
-                    <Input2 />
+                    <Input3 />
                 </div>
             </div>
         </Div>

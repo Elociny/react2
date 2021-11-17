@@ -7,6 +7,7 @@ import Comprar from './pages/pages-usu/comprar/index';
 import Feminino from './pages/pages-usu/feminino/index';
 import ListaDeDesejos from './pages/pages-usu/listaDeDesejos/index';
 import Login from './pages/pages-usu/login/index';
+import NovoEndereco from './pages/pages-usu/novoEndereco/index';
 import MinhaConta from './pages/pages-usu/minhaConta/index';
 import MeusPedidos from './pages/pages-usu/meusPedidos/index';
 import PedidoConfirmado from './pages/pages-usu/pedidoConfirmado/index';
@@ -22,6 +23,7 @@ export default function Rota() {
                 <Route path="/feminino" element={<Feminino />} />
                 <Route path="/lista-de-desejos" element={<ListaDeDesejos />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/novo-endereco" element={<NovoEndereco />} />
                 <Route path="/minha-conta" element={<MinhaConta />} />
                 <Route path="/meus-pedidos" element={<MeusPedidos />} />
                 <Route path="/pedido-confirmado" element={<PedidoConfirmado />} />
