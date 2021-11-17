@@ -24,7 +24,9 @@ export default function dados() {
                                     </div>
 
                                     <div className="sair">
-                                        <button>Sair</button>
+                                        <Link className="link" to='/login'>
+                                            <button>Sair</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

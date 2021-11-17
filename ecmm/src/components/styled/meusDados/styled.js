@@ -55,6 +55,8 @@ const Div = styled.div`
 
     .sair button:hover {
         cursor: pointer;
+
+        text-decoration: underline;
     }
 
     .link {

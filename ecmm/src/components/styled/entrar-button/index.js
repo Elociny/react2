@@ -4,7 +4,7 @@ export default function button() {
     return (
         <Div>
             <div className="entrar">
-                <button>ENTRAR</button>
+                    <button>ENTRAR</button>
             </div>
         </Div> 
     );
