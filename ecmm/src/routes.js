@@ -9,6 +9,7 @@ import ListaDeDesejos from './pages/pages-usu/listaDeDesejos/index';
 import Login from './pages/pages-usu/login/index';
 import MinhaConta from './pages/pages-usu/minhaConta/index';
 import MeusPedidos from './pages/pages-usu/meusPedidos/index';
+import PedidoConfirmado from './pages/pages-usu/pedidoConfirmado/index';
 import Produto from './pages/pages-usu/produto/index';
 
 export default function Rota() {
@@ -23,6 +24,7 @@ export default function Rota() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/minha-conta" element={<MinhaConta />} />
                 <Route path="/meus-pedidos" element={<MeusPedidos />} />
+                <Route path="/pedido-confirmado" element={<PedidoConfirmado />} />
                 <Route path="/produto" element={<Produto />} />
            </Routes>
        </BrowserRouter>
