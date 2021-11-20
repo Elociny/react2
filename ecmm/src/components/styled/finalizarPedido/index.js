@@ -1,5 +1,7 @@
 import { Div } from './styled';
 
+import { Link } from 'react-router-dom';
+
 export default function finalizarPedido() {
     return (
         <Div>
@@ -31,7 +33,9 @@ export default function finalizarPedido() {
                 </div>
 
                 <div className="botao">
-                    <button>Finalizar Compra</button>
+                    <Link className="link" to='/pagamento'>
+                        <button>Finalizar Compra</button>
+                    </Link>
                 </div>
             </div>
         </Div>
