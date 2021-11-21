@@ -36,7 +36,7 @@ const Div = styled.div`
     }
 
     .input2 input {
-        padding: 5px 30px 5px 5px;
+        padding: 5px 5px 5px 5px;
 
         border-radius: 4px;
         border: 1px solid;
@@ -44,6 +44,8 @@ const Div = styled.div`
         outline: none;
 
         cursor: text;
+
+        width: 195px;
     }
 
     .dad {
@@ -51,7 +53,7 @@ const Div = styled.div`
     }
 
     .input input {
-        padding: 5px 242px 5px 5px;
+        padding: 5px 5px 5px 5px;
 
         border-radius: 4px;
         border: 1px solid;
@@ -59,6 +61,8 @@ const Div = styled.div`
         outline: none;
 
         cursor: text;
+
+        width: 407px;
     }
 `;
 

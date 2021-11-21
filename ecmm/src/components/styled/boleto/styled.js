@@ -8,6 +8,10 @@ const Div = styled.div`
         color: #d9d9d9;
 
         background-color: #3C6E71;
+
+        border-radius: 4px;
+
+        user-select: none; 
     }
 
     .tuitu {

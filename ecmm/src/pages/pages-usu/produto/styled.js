@@ -1,6 +1,10 @@
 import styled from "styled-components"; 
 
 const Div = styled.div`
+    .container {
+        user-select: none; 
+    }
+
     .conteudo {
         display: flex;
         flex-direction: row;

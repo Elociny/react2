@@ -29,11 +29,13 @@ const Div = styled.div`
     border-radius: 50px;
     outline: none;
       
-    padding: 10px 150px 10px 15px;
+    padding: 10px 10px 10px 10px;
     margin: 0px 7px;
 
     background-color: #609FA3;
     color: #d9d9d9;
+
+    width: 407px;
   }
 
   .inp input::placeholder {

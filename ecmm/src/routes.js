@@ -11,7 +11,6 @@ import NovoEndereco from './pages/pages-usu/novoEndereco/index';
 import MinhaConta from './pages/pages-usu/minhaConta/index';
 import MeusPedidos from './pages/pages-usu/meusPedidos/index';
 import Pagamento from './pages/pages-usu/pagamento/index';
-import Pagamento2 from './pages/pages-usu/pagamento2/index';
 import PedidoConfirmado from './pages/pages-usu/pedidoConfirmado/index';
 import Produto from './pages/pages-usu/produto/index';
 
@@ -29,7 +28,6 @@ export default function Rota() {
                 <Route path="/minha-conta" element={<MinhaConta />} />
                 <Route path="/meus-pedidos" element={<MeusPedidos />} />
                 <Route path="/pagamento" element={<Pagamento />} />
-                <Route path="/pagamento2" element={<Pagamento2 />} />
                 <Route path="/pedido-confirmado" element={<PedidoConfirmado />} />
                 <Route path="/produto" element={<Produto />} />
            </Routes>

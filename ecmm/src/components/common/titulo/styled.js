@@ -16,7 +16,7 @@ const Div = styled.div`
   }
 
   .link:hover {
-    text-decoration: none;
+    text-decoration: none !important;
   }
 `;
 

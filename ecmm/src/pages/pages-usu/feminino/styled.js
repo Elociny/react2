@@ -1,6 +1,10 @@
 import styled from "styled-components"; 
 
 const Div = styled.div`
+    .container {
+        user-select: none; 
+    }
+
     .row {
         margin: 25px 25px;
 

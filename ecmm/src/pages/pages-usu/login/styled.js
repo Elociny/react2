@@ -1,6 +1,10 @@
 import styled from "styled-components"; 
 
 const Div = styled.div`
+    .container {
+        user-select: none; 
+    }
+
     .area {
         background-image: url("/assets/images/background.png");
         padding: 300px 0px;

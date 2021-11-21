@@ -22,8 +22,7 @@ const Div = styled.div`
         display: flex;
         flex-direction: row;
 
-        text-align: center;
-        align-itens: center;
+        justify-content: space-around;
     }
     
     .bot {

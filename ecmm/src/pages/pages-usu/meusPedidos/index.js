@@ -8,7 +8,7 @@ import RodaPe from '../../../components/common/rodaPe/index';
 export default function meusPedidos() {
     return (
         <Div>
-            <div className="conteudo">
+            <div className="container">
                 <Cabecalho />
                 
                 <div className="area">

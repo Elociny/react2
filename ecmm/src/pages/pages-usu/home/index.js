@@ -10,7 +10,7 @@ import Quadrado2 from '../../../components/styled/quadrado2/index';
 export default function home() {
     return (
         <Div>
-            <div className="pai">
+            <div className="container">
                 <Cabecalho />
 
                 <div className="filho">

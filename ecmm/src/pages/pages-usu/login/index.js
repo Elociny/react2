@@ -9,8 +9,8 @@ import Senha from '../../../components/common/input-senha/index';
 
 export default function login() {
     return (
-        <div className="container">
-            <Div>
+        <Div>
+            <div className="container">
                 <Cabecalho />
 
                 <div class="area">
@@ -30,7 +30,7 @@ export default function login() {
                 </div>
 
                 <RodaPe />
-            </Div>
-        </div>
+            </div>
+        </Div>
     );
 }

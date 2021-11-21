@@ -1,5 +1,6 @@
 import { Div } from './styled';
 
+import Cartao from '../../styled/cartao/index';
 import Boleto from '../../styled/boleto/index';
 
 export default function pagamento() {
@@ -26,6 +27,7 @@ export default function pagamento() {
                             </div>
                         </div>
 
+                        <Cartao />
                         <Boleto />
                     </div>
                 </div>
