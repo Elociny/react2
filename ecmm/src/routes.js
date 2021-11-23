@@ -10,6 +10,9 @@ import Login from './pages/pages-usu/login/index';
 import NovoEndereco from './pages/pages-usu/novoEndereco/index';
 import MinhaConta from './pages/pages-usu/minhaConta/index';
 import MeusPedidos from './pages/pages-usu/meusPedidos/index';
+import Ofertas from './pages/pages-usu/ofertas/index';
+import Ofertas2 from './pages/pages-usu/ofertas2/index';
+import Ofertas3 from './pages/pages-usu/ofertas3/index';
 import Pagamento from './pages/pages-usu/pagamento/index';
 import PedidoConfirmado from './pages/pages-usu/pedidoConfirmado/index';
 import Produto from './pages/pages-usu/produto/index';
@@ -27,6 +30,9 @@ export default function Rota() {
                 <Route path="/novo-endereco" element={<NovoEndereco />} />
                 <Route path="/minha-conta" element={<MinhaConta />} />
                 <Route path="/meus-pedidos" element={<MeusPedidos />} />
+                <Route path="/ofertas" element={<Ofertas />} />
+                <Route path="/ofertas2" element={<Ofertas2 />} />
+                <Route path="/ofertas3" element={<Ofertas3 />} />
                 <Route path="/pagamento" element={<Pagamento />} />
                 <Route path="/pedido-confirmado" element={<PedidoConfirmado />} />
                 <Route path="/produto" element={<Produto />} />

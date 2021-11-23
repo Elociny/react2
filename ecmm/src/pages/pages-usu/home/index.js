@@ -6,6 +6,7 @@ import Cabecalho from '../../../components/common/cabecalho/index';
 import RodaPe from '../../../components/common/rodaPe/index';
 import Quadrado1 from '../../../components/styled/quadrado1/index';
 import Quadrado2 from '../../../components/styled/quadrado2/index';
+import Quadrado3 from '../../../components/styled/quadrado3/index';
 
 export default function home() {
     return (
@@ -57,10 +58,17 @@ export default function home() {
                     </div>
 
                     <div className="row">
-                        <Quadrado1 />
-                        <Quadrado1 />
-                        <Quadrado1 />
-                        <Quadrado1 />
+                        <Link className="link" to='/ofertas'>
+                            <Quadrado1 />
+                        </Link>
+
+                        <Link className="link" to='/ofertas2'>
+                            <Quadrado2 />
+                        </Link>
+
+                        <Link className="link" to='/ofertas3'>
+                            <Quadrado3 />
+                        </Link>
                     </div>
 
                     <div className="titulo2">
